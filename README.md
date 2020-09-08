@@ -20,9 +20,17 @@ Navigate to your command prompt / shell / terminal. If none of the below represe
 - [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)
 - [Ubuntu Linux](https://www.wikihow.com/Open-a-Terminal-Window-in-Ubuntu)
 
-Once open, 
+Once open, type
+```
+git --version
+```
+and hit enter.
+
+If you have git on your machine, you will see a version number. If you do have git, skip installation. 
+
+If you want to upgrade git, please do. Search online to figure out how to upgrade git on your operating system.
 
 ### Installation
-Follow the directions for your machine to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) git.
+If you do not Follow the directions for your machine to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) git.
 
 
