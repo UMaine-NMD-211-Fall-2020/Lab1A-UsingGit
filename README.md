@@ -18,7 +18,7 @@ To be looked over before lab. The actions should be completed.
 ### Pre Lab Actions / Requirements
 Bring  your laptopto the lab session.
 
-It will be useful to have a text editor on your computer. [Atom](https://www.sublimetext.com/) or [Sublime](https://www.sublimetext.com/) are great choices, but you can use what you will. Notepad will suffice, but will become cumbersome quickly and is not recommended.
+It will be useful to have a text editor on your computer. [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/) are great choices, but you can use what you will. Notepad will suffice, but will become cumbersome quickly and is not recommended.
 We will use text editors when creating README.md files. 
 
 If you cannot make the in-person lab session for any reason, reply to the slack thread under the l
