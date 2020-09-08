@@ -13,8 +13,14 @@ If you have questions
 
 Do not get up and go ask for help, due to social distancing concerns. 
 
+## Pre Lab Actions / Requirements
+For this lab you will need your laptop.
+
+It will be useful to have a text editor on your computer. [Atom](https://www.sublimetext.com/) or [Sublime](https://www.sublimetext.com/) are great choices, but you can use what you will. Notepad will suffice, but will become cumbersome quickly and is not recommended.
+We will use text editors when creating README.md files. 
+
 ## Pre Lab Readings
-Lab will make more sense and run more smoothly if you have the chance to read these beforehand. Since this lab was released late, you may not be able to. We will briefly discuss the contents in lab. Please use these resources when confused about why we are doing this lab. 
+Lab will make more sense and run more smoothly if you have the chance to read these beforehand. Since this lab was released late, you may not be able to. We will briefly discuss the contents in lab. Please consult these resources if you are confused about why we are doing this lab. 
 
 ### Version Control: Why Use It
 
@@ -22,7 +28,7 @@ Lab will make more sense and run more smoothly if you have the chance to read th
 
 ### Git Vs. Github
 
-## Git on your Machine 
+## 0. Git on your Machine 
 For the labs, you will want to have git on your local machines / your laptops. 
 
 ### Is Git already installed?
@@ -43,5 +49,17 @@ If you want to upgrade git, please do. Search online to figure out how to upgrad
 
 ### Installation
 If you do not Follow the directions for your machine to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) git.
+
+## 1. Your First Git Repo
+First, you will make your own github repository. 
+This is how you would start any solo project that you would want to put under version control. 
+This is also how you would start a team project, but in that case, only one person needs to make the initial folder. 
+
+It is a very good idea to put any coding projects under version control. 
+
+### Make a Folder (Repository)
+
+###
+
 
 
