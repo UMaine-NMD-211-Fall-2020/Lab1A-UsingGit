@@ -66,14 +66,15 @@ If you do not Follow the directions for your machine to [install](https://git-sc
 
 ## 2. Your First Git Repo
 First, you will make your own github repository. 
-This is how you would start any solo project that you would want to put under version control. 
+This is how you would st
+art any solo project that you would want to put under version control. 
 This is also how you would start a team project, but in that case, only one person needs to make the initial folder. 
 
 It is a very good idea to put any coding projects under version control. 
 
 ### Make a Folder (Repository)
-
-###
+Make a folder for the first section of Lab 1A somewhere appropriate on your computer, such as a folder for all labs in this class. Name it 1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*. 
+- 
 
 
 
