@@ -137,23 +137,20 @@ out
 ```
 ### Your First Commit
 1. Make sure you are still in `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`
-2. Check to see what files need to have their new changes tracked by typing
-```
-git status
-```
-Files that need to have their changes tracked are often shown in red. 
-3. To track the changes of a file, say your `README.md`, type
-```
-git add README.md
-```
+2. Check to see what files need to have their new changes tracked by typing ```
+git status ``` Files that need to have their changes tracked are often shown in red. 
+
+3. To track the changes of a file, say your `README.md`, type ```
+git add README.md ```
 and then hit `ENTER`. 
 To add another file, say the `.gitignore`, repeat the process, but use the name `.gitignore` instead.  
+
 4. Type `git status` again to make sure that all files are added and have their changes tracked. Oftentimes, added files have changed to green. 
+
 5. We need to commit these changes to the version control log of happenings. 
-To do so, type
-```
-git commit -m "Initial commit - add README and gitignore"
-```
+To do so, type ```
+git commit -m "Initial commit - add README and gitignore" ```
+
 6. Check your status again! There should now be no changes pending on your local machine. 
 
 Every time you make significant changes, commit. 
