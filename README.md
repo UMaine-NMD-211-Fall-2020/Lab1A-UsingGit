@@ -91,8 +91,13 @@ Make a folder for the first section of Lab 1A somewhere appropriate on your comp
 Name it `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`. 
 
 #### git init
-First initialize the folder as a git folder by typing
-`git init`. 
+Open your command line/terminal/shell.
+Navigate to your saved folder `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` by typing. You can see all files in a folder in terminal by typing `ls` on mac/linux or `dir` on windows. You can navigate to subfolders by typing `cd SUBFOLDER1\SUBFOLDER2\...\SUBFOLDERN`. If you have gone too far, you can type `cd ..` to go up one level. 
+
+Initialize the folder `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` as a git folder by typing
+```
+git init
+``` 
 This allows us to start keeping track of changes / versions on our local systems. 
 
 But before we can keep track of content, we need content. 
@@ -131,8 +136,29 @@ application.macosx
 out
 ```
 ### Your First Commit
-1. Check to see any files that you haven't saved the changes of (all of them, so far) by opening your command line/terminal/shell and navigating to your saved folder `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`. You can see all files in a folder in terminal by typing `ls` on mac/linux or `dir` on windows. You can navigate to subfolders by typing `cd SUBFOLDER1\SUBFOLDER2\...\SUBFOLDERN`. If you have gone too far, you can type `cd ..` to go up one level. 
-2. Once inside the `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`
+1. Make sure you are still in `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`
+2. Check to see what files need to have their new changes tracked by typing
+```
+git status
+```
+Files that need to have their changes tracked are often shown in red. 
+3. To track the changes of a file, say your `README.md`, type
+```
+git add README.md
+```
+and then hit `ENTER`. 
+To add another file, say the `.gitignore`, repeat the process, but use the name `.gitignore` instead.  
+4. Type `git status` again to make sure that all files are added and have their changes tracked. Oftentimes, added files have changed to green. 
+5. We need to commit these changes to the version control log of happenings. 
+To do so, type
+```
+git commit -m "Initial commit - add README and gitignore"
+```
+6. Check your status again! There should now be no changes pending on your local machine. 
 
+Every time you make significant changes, commit. 
+Each time you commit, write a useful commit message. 
+This way, if you ever need to go back and undo your work, you can reset your project. Say something went wrong after I changed my triangles green. If my commit message tells me when triangles are green, I can roll back to that point in time. We will not discuss rolling back changes yet, but if for some reason you need this, I will help you get through the process.  
 
+## 3. 
 
