@@ -185,7 +185,9 @@ Basically this is
 2. Skip to step 7. You should still be in your local directory `1AC-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` on the command line/terminal/shell. You have already initialized the folder, added files, commited. 
 3. Complete steps 7 - 9. 
 
-Now, your code is under version control and accessible remotely. 
+Now, your code is under version control and accessible remotely. Any time you make local changes, remember to add, commit, and push to the online version by typing `git push origin master`. 
+
+This is the simplest type of putting our code online with version control. We will discuss better github ettiquette for pushing changes next week.
 
 ## Next Steps
 We will continue with this repository in Lab 1C. Lab 1C covers some processing exercises. 
