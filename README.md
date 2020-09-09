@@ -73,8 +73,21 @@ This is also how you would start a team project, but in that case, only one pers
 It is a very good idea to put any coding projects under version control. 
 
 ### Make a Folder (Repository)
+
 Make a folder for the first section of Lab 1A somewhere appropriate on your computer, such as a folder for all labs in this class. Name it 1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*. 
-- 
+
+#### Initial folder contents
+
+Open your text editor (atom, sublime, etc). 
+Open a new file. 
+Click on file, save, then navigate to the folder. 
+Save the new file as **README.md**. 
+Fill the README.md with the text below
+```markdown
+# Lab 1A - I
+## Version Controlled Processing
+More details to come soon.
+```
 
 
 
