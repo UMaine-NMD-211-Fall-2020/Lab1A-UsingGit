@@ -1,5 +1,4 @@
-# Lab1A-UsingGit
-Lab 1A: 
+# Lab1A - UsingGit
 This is the first week of labs (week of 9/7/2020). 
 We will learn how to use git to version control our work and github to manage remote projects. 
 
@@ -88,13 +87,13 @@ It is a very good idea to put any coding projects under version control.
 ### Make a Folder (Repository)
 
 Make a folder for the first section of Lab 1A somewhere appropriate on your computer, such as a folder for all labs in this class. 
-Name it `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`. 
+Name it `1AC-*YOUR FIRST NAME*-*YOUR LAST NAME*`. 
 
 #### git init
 Open your command line/terminal/shell.
-Navigate to your saved folder `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` by typing. You can see all files in a folder in terminal by typing `ls` on mac/linux or `dir` on windows. You can navigate to subfolders by typing `cd SUBFOLDER1\SUBFOLDER2\...\SUBFOLDERN`. If you have gone too far, you can type `cd ..` to go up one level. 
+Navigate to your saved folder `1AC-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` by typing. You can see all files in a folder in terminal by typing `ls` on mac/linux or `dir` on windows. You can navigate to subfolders by typing `cd SUBFOLDER1\SUBFOLDER2\...\SUBFOLDERN`. If you have gone too far, you can type `cd ..` to go up one level. 
 
-Initialize the folder `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` as a git folder by typing
+Initialize the folder `1AC-*YOUR FIRST NAME*-*YOUR LAST NAME*` as a git folder by typing
 ```
 git init
 ``` 
@@ -111,9 +110,10 @@ Click on file, save, then navigate to the folder.
 Save the new file as **README.md**. 
 Fill the README.md with the text below
 ```markdown
-# Lab 1A - I
+# Lab 1AC
 ## Version Controlled - Processing
-More details to come soon.
+1. Lab 1A: initialize version controlled repository
+2. Lab 1C: 
 ```
 ##### .gitignore file
 Running processing and other computer programs generates files we do not necessarily want or need to save. 
@@ -136,9 +136,9 @@ application.macosx
 out
 ```
 ### Your First Commit
-1. Make sure you are still in `1A-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`
+1. Make sure you are still in `1AC-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`
 2. Check to see what files need to have their new changes tracked by typing ```
-git status ``` Files that need to have their changes tracked are often shown in red. 
+git status ```. Files that need to have their changes tracked are often shown in red. 
 
 3. To track the changes of a file, say your `README.md`, type ```
 git add README.md ```
@@ -157,5 +157,38 @@ Every time you make significant changes, commit.
 Each time you commit, write a useful commit message. 
 This way, if you ever need to go back and undo your work, you can reset your project. Say something went wrong after I changed my triangles green. If my commit message tells me when triangles are green, I can roll back to that point in time. We will not discuss rolling back changes yet, but if for some reason you need this, I will help you get through the process.  
 
-## 3. 
+## 3. Add Project to Github
+Back up your version controlled code on your computer online through Github. 
+Not only does this give you a backup copy, but it starts to provide framework for remote teamwork - sharing code and working together on different parts of the same code simultaneously. 
+We will not be working on remote teamwork this week, but will introduce it next week. 
+
+### Create a github account
+[Join Github](https://github.com/join)
+You can use a school email, emails are not displayed unless you choose them to be.
+
+Keep your login information somewhere safe. 
+
+### Communicating with github
+#### Set your username
+So that Github knows you are the person trying to communicate with it and commit code, [set your github username](https://docs.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer). Set it for every repository on your machine. 
+
+#### SSH Keys
+This the secret password exchange that Github needs so that it knows this computer is allowed to send it code. 
+[Generate and add SSH Keys](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
+Truthfully, you can copy and paste the ssh keys, which is my preferred way. If many of you get here and are stuck, I am happy to give a class demo. 
+
+#### Add Your Local Repository to Github
+Follow the steps [here](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Basically this is
+1. Create a repo on Github with the appropriate name (`1AC-I-*YOUR FIRST NAME*-*YOUR LAST NAME*`)
+2. Skip to step 7. You should still be in your local directory `1AC-I-*YOUR FIRST NAME*-*YOUR LAST NAME*` on the command line/terminal/shell. You have already initialized the folder, added files, commited. 
+3. Complete steps 7 - 9. 
+
+Now, your code is under version control and accessible remotely. 
+
+## Next Steps
+We will continue with this repository in Lab 1C. Lab 1C covers some processing exercises. 
+
+We will pick up with these concepts next week, introducing how to get a repository stored on computer not on your computer and how to work on the same file as other people. 
 
